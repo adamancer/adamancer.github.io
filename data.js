@@ -15,7 +15,7 @@
       dataType: "json",
       method: "GET",
       url: "data.json"
-    }).then(function(data) { parseAjaxResponse(data) },
+    }).then(function(data) { parseAndStoreJSON(data) },
             function() { console.log("Could not read data.js"); });
   }
 
